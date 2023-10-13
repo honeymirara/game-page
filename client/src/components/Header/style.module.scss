@@ -20,15 +20,26 @@
 
 
         p:hover {
-            text-shadow: 0 0 10px rgba(255, 165, 0, 0.9);
-
+            text-shadow: 0 0 10px rgba(255, 165, 0, 0.9), 0 0 20px rgba(255, 165, 0, 0.9);
         }
     }
-
 
     .btnTag {
         display: flex;
         gap: 13px;
+    }
 
+    .planet {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .img {
+        background: url('../../assets/planet.svg') no-repeat;
+        background-size: 20px;
+        background-position: left center;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
     }
 }

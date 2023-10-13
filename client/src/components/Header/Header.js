@@ -13,20 +13,17 @@ export default function Header() {
                     <p>Contact us</p>
                     <p>Careers</p>
                 </nav>
-                <div>
-                    <div className={style.planet}>
-                    </div>
-                    <div className={style.language}>en</div>
-                </div>
-
+               
                 <div className={style.btnTag}>
+                    <Button className={style.planet} variant="outlined">
+                        <div className={style.img}>
+                            En
+                        </div>
+                    </Button>
                     <Button variant="outlined">Log in</Button>
                     <Button variant="contained">Sign up</Button>
-
                 </div>
-
             </div>
         </>
-
     )
 }

@@ -6,7 +6,7 @@ export default function HomePage() {
     return (<>
         <Header />
         <div className={style.wrapper}>
-            <div>
+            <div className={style.info}>
                 <h1>House of</h1>
                 <h2>Gambling</h2>
                 <p>Raise your ROI with direct advertiser</p>

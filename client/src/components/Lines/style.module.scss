@@ -1,0 +1,29 @@
+.first,
+.third {
+    animation: twoLineMotion 5s linear infinite alternate;
+}
+
+.second {
+    animation: secondLineMotion 5s linear infinite alternate;
+}
+
+@keyframes twoLineMotion {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(10%);
+    }
+}
+
+@keyframes secondLineMotion {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10%);
+    }
+}
+

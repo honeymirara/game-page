@@ -1,6 +1,8 @@
 .wrapper {
-    width: 1920px;
-    height: 1048px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 500px;
 
 
     .info {
@@ -48,9 +50,17 @@
             transition: 0.5s;
 
             &:hover {
-                background: var(--main-blue-478-bf-9, #396aba); 
-                
+                background: var(--main-blue-478-bf-9, #396aba);
+
             }
         }
+    }
+
+    .animation {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        position: absolute;
+        z-index: -1;
     }
 }

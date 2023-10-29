@@ -1,6 +1,7 @@
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
-import style from './style.module.scss'
+import style from './style.module.scss';
+import Lines from '../../components/Lines/Lines';
 
 export default function HomePage() {
     return (<>
@@ -12,6 +13,13 @@ export default function HomePage() {
                 <p>Raise your ROI with direct advertiser</p>
                 <div className={style.btn}>Become a Partner</div>
             </div>
+            <div className={style.animation}>
+                <Lines id='firstLine' />
+                <Lines id='secondLine' />
+                <Lines id='thirdLine' />
+
+            </div>
+            <div className={style.blog}></div>
         </div>
         <Footer />
         <div></div>

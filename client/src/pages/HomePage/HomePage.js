@@ -5,7 +5,9 @@ import Lines from '../../components/Lines/Lines';
 
 export default function HomePage() {
     return (<>
+
         <Header />
+
         <div className={style.wrapper}>
             <div className={style.info}>
                 <h1>House of</h1>
@@ -17,12 +19,32 @@ export default function HomePage() {
                 <Lines id='firstLine' />
                 <Lines id='secondLine' />
                 <Lines id='thirdLine' />
-
             </div>
-            <div className={style.blog}></div>
+            <div className={style.blog}>
+                <h1>Blog</h1>
+                <div className={style.scroll}>
+                    <div className={style.textBlog}>
+                        <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+                        <p>10.02.2023</p>
+                    </div>
+                    <div className={style.textBlog}>
+                        <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+                        <p>10.02.2023</p>
+                    </div>
+                    <div className={style.textBlog}>
+                        <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+                        <p>10.02.2023</p>
+                    </div>
+                    <div className={style.textBlog}>
+                        <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+                        <p>10.02.2023</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
         <Footer />
-        <div></div>
     </>
     )
 }

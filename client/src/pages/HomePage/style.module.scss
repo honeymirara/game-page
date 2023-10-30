@@ -1,25 +1,24 @@
 .wrapper {
     display: flex;
+    align-items: center;
     justify-content: center;
-    position: relative;
     gap: 500px;
 
 
     .info {
         display: flex;
-        width: 669px;
         flex-direction: column;
         align-items: flex-start;
 
         h1 {
             color: var(--main-clean-white-ffffff, #FFF);
-            font: 500 96px Lexend;
+            font: 600 96px Lexend;
             line-height: 96px;
         }
 
         h2 {
             color: var(--main-blue-478-bf-9, #478BF9);
-            font: 500 96px Lexend;
+            font: 600 96px Lexend;
             line-height: 96px;
         }
 
@@ -62,5 +61,47 @@
         gap: 12px;
         position: absolute;
         z-index: -1;
+
+
+
+    }
+
+    .blog {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        margin: 140px 0px;
+
+        h1 {
+            color: var(--main-clean-white-ffffff, #FFF);
+            font: 600 40px Lexend;
+            line-height: 40px;
+
+        }
+
+
+
+        .scroll {
+            display: flex;
+            flex-direction: column;
+            border-radius: 100px;
+            border: 3px solid var(--main-blue-478-bf-9, #478BF9);
+            background: var(--transp-white-white-12, rgba(255, 255, 255, 0.12));
+            backdrop-filter: blur(10px);
+            height: 595px;
+            padding: 24px 40px 0px 24px;
+            gap: 15px;
+            overflow-y: scroll;
+
+            .textBlog {
+                display: flex;
+                padding: 16px 64px;
+                flex-direction: column;
+                align-items: flex-start;
+                border-radius: 196px;
+                background: var(--main-blue-478-bf-9, #478BF9);
+            }
+        }
     }
 }

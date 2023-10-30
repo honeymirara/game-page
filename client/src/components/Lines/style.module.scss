@@ -1,10 +1,12 @@
 .first,
 .third {
     animation: twoLineMotion 5s linear infinite alternate;
+   
 }
 
 .second {
     animation: secondLineMotion 5s linear infinite alternate;
+   
 }
 
 @keyframes twoLineMotion {

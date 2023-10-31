@@ -93,6 +93,9 @@
             padding: 24px 40px 0px 24px;
             gap: 15px;
             overflow-y: scroll;
+            cursor: pointer;
+
+
 
             .textBlog {
                 display: flex;
@@ -101,6 +104,19 @@
                 align-items: flex-start;
                 border-radius: 196px;
                 background: var(--main-blue-478-bf-9, #478BF9);
+
+                color: var(--main-clean-white-ffffff, #FFF);
+                font: 400 24px Lexend;
+                line-height: 28px;
+                transition: 0.8s;
+
+                &:hover {
+                    background: var(--main-deep-blue-1-e-1231, #1E1231);
+                }
+
+                .paragraph {
+                    font-size: 14px;
+                   }
             }
         }
     }

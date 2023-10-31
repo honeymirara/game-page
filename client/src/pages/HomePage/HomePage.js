@@ -25,19 +25,19 @@ export default function HomePage() {
                 <div className={style.scroll}>
                     <div className={style.textBlog}>
                         <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
-                        <p>10.02.2023</p>
+                        <p className={style.paragraph}>10.02.2023</p>
                     </div>
                     <div className={style.textBlog}>
                         <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
-                        <p>10.02.2023</p>
+                        <p className={style.paragraph}>10.02.2023</p>
                     </div>
                     <div className={style.textBlog}>
                         <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
-                        <p>10.02.2023</p>
+                        <p className={style.paragraph}>10.02.2023</p>
                     </div>
                     <div className={style.textBlog}>
                         <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
-                        <p>10.02.2023</p>
+                        <p className={style.paragraph}>10.02.2023</p>
                     </div>
                 </div>
             </div>

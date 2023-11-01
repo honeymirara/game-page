@@ -8,7 +8,8 @@
     .info {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+         align-items: flex-start; 
+         margin-left: 50px;
 
         h1 {
             color: var(--main-clean-white-ffffff, #FFF);
@@ -91,7 +92,7 @@
             backdrop-filter: blur(10px);
             height: 595px;
             padding: 24px 40px 0px 24px;
-            gap: 15px;
+            gap: 10px;
             overflow-y: scroll;
             cursor: pointer;
 
@@ -116,8 +117,36 @@
 
                 .paragraph {
                     font-size: 14px;
-                   }
+                }
+            }
+
+        }
+
+        .scroll {
+            overflow-y: scroll;
+            scrollbar-width: thin;
+            /* для Firefox */
+            scrollbar-color: var(--main-blue-478-bf-9, #478BF9) var(--transp-white-white-12, rgba(255, 255, 255, 0.12));
+            /* для Firefox */
+
+
+            &::-webkit-scrollbar {
+                width: 8px;
+               
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background-color: var(--main-blue-478-bf-9, #478BF9);
+                border-radius: 10px;
+                height: 10px; 
+            }
+
+            &::-webkit-scrollbar-track {
+                background: var(--transp-white-white-12, rgba(255, 255, 255, 0.12));
+                height: 104px; 
+                margin: 100px 0;
             }
         }
+
     }
 }

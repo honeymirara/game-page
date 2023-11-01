@@ -39,6 +39,15 @@ export default function HomePage() {
                         <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
                         <p className={style.paragraph}>10.02.2023</p>
                     </div>
+                     <div className={style.textBlog}>
+                        <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+                        <p className={style.paragraph}>10.02.2023</p>
+                    </div>
+                     <div className={style.textBlog}>
+                        <p>Payment methods: Skrill, Neteller, webmoney, Bank transfer</p>
+                        <p className={style.paragraph}>10.02.2023</p>
+                    </div>
+                   
                 </div>
             </div>
         </div>

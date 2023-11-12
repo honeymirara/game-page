@@ -4,21 +4,29 @@
 This project is a layout created using React, SCSS, and Material UI styles. Animation has also been added to enhance the user experience.
 
 ## Running the Project
+1. Перейдите в директорию клиента:
 
-1. Navigate to the client directory:
+    ```bash
     cd client
     ```
-2. Install dependencies:
+
+2. Установите зависимости:
+
+    ```bash
     npm install
     ```
-3. Start the project:
+
+3. Запустите проект:
+
+    ```bash
     npm start
     ```
-   or
-    
+
+или
+
+    ```bash
     npm run start
     ```
-
 Open your browser and go to [http://localhost:3000](http://localhost:3000) to see your test project in action.
 
 ## Project Structure

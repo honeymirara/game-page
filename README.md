@@ -18,15 +18,15 @@ This project is a layout created using React, SCSS, and Material UI styles. Anim
 
 3. Запустите проект:
 
-   
+    ```bash
     npm start
-
+ ```
 
 или
 
-    ```bash
-    npm run start
-    ```
+ ```bash
+ npm run start
+ ```
 Open your browser and go to [http://localhost:3000](http://localhost:3000) to see your test project in action.
 
 ## Project Structure

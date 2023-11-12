@@ -18,9 +18,9 @@ This project is a layout created using React, SCSS, and Material UI styles. Anim
 
 3. Запустите проект:
 
-    ```bash
+   
     npm start
-    ```
+
 
 или
 
